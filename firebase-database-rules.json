@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "the-cost-is-correct": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
