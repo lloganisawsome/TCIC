@@ -1,5 +1,5 @@
 import { subscribeShow } from "./state.js";
-import { getGameMeta, loadGame } from "./games-registry.js";
+import { getGameMeta, loadGame } from "./games-registry.js?v=12";
 import { formatTarget, rankContestants, winnerText } from "./score-system.js";
 
 const app = document.getElementById("tvApp");

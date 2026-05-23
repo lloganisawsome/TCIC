@@ -1,4 +1,4 @@
-import { GAME_CATALOG } from "./games-registry.js";
+import { GAME_CATALOG } from "./games-registry.js?v=12";
 
 const HOW_TO_PLAY = {
   "plinko": ["Contestants pick a drop lane and lock a target guess.", "Host hits Drop Chip for the TV animation.", "Reveal scores closest guesses or exact text targets."],
@@ -57,9 +57,9 @@ app.innerHTML = `
       <p>Quick producer notes for what each game does, how to run it, and what the contestant tablet is for.</p>
     </div>
     <nav class="guide-nav">
-      <a class="mega-link hot" href="./host.html?v=11">Host Panel</a>
-      <a class="mega-link blue" href="./tv.html?v=11">TV Display</a>
-      <a class="mega-link gold" href="./tablet.html?host=1&v=11">Host Tablet</a>
+      <a class="mega-link hot" href="./host.html?v=12">Host Panel</a>
+      <a class="mega-link blue" href="./tv.html?v=12">TV Display</a>
+      <a class="mega-link gold" href="./tablet.html?host=1&v=12">Host Tablet</a>
     </nav>
   </header>
   <section class="guide-grid">

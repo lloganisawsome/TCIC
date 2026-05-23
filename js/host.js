@@ -10,7 +10,7 @@ import {
   subscribeSyncStatus,
   unlockAll
 } from "./state.js";
-import { GAME_CATALOG, getGameMeta, loadGame } from "./games-registry.js";
+import { GAME_CATALOG, getGameMeta, loadGame } from "./games-registry.js?v=12";
 import { applyRevealScores, formatTarget, rankContestants, winnerText } from "./score-system.js";
 
 const app = document.getElementById("hostApp");
@@ -337,7 +337,7 @@ function render() {
         <h1 class="host-title">The Cost Is Correct Control Room</h1>
         <div class="shortcut-strip">
           <span class="keycap">SPACE Reveal</span><span class="keycap">ENTER Next</span><span class="keycap">1/2/3 +500</span><span class="keycap">T Timer</span><span class="keycap">B Buzzers</span>
-          <a class="keycap" href="./guide.html?v=11">Game Guide</a>
+          <a class="keycap" href="./guide.html?v=12">Game Guide</a>
         </div>
       </div>
       <div class="connection" data-sync-status><span class="dot ${syncStatus.online ? "online" : ""}"></span> ${syncLabel()}</div>
